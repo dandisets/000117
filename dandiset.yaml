@@ -47,9 +47,9 @@ keywords:
 - spinal cord
 - patch-clamp
 license:
-- spdx:CC-BY-NC-4.0
-- spdx:CC0-1.0
-manifestLocation: []
+- spdx:CC-BY-4.0
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000117/versions/draft/assets/
 name: 1U01MH116990-01_July_2021
 protocol: []
 relatedResource: []
@@ -59,4 +59,8 @@ schemaVersion: 0.4.4
 studyTarget: []
 url: https://dandiarchive.org/dandiset/000117/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- name: Brain Initiative Cell Census Network (BICCN)
+  schemaKey: Project
+  used: []
+  wasAssociatedWith: []
