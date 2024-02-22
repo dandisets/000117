@@ -3,7 +3,9 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
 about: []
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -27,7 +29,7 @@ assetsSummary:
   - CurrentClampSeries
   - VoltageClampSeries
   - VoltageClampStimulusSeries
-citation: Zhang, Guang-Wei (2022) 1U01MH116990-01_July_2021 (Version draft) [Data
+citation: Zhang, Guang-Wei (2024) 1U01MH116990-01_July_2021 (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/000117/draft
 contributor:
 - affiliation: []
@@ -54,7 +56,7 @@ manifestLocation:
 name: 1U01MH116990-01_July_2021
 protocol: []
 relatedResource: []
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
